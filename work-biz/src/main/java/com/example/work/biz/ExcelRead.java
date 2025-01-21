@@ -13,7 +13,7 @@ public class ExcelRead {
     public static void main(String[] args) {
         String path = "D:\\2.xlsx";
         String result = readExcelFile(path);
-        System.out.println(result);
+        System.out.println("扫描后输出结果为："+result);
     }
 
     public static String readExcelFile(String filePath) {
